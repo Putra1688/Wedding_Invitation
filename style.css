@@ -59,7 +59,7 @@ body {
 
 .mynavbar {
     background-color: rgba(255 2555 255 / 0.3) !important;
-    backdrop-filter: blur(3px);
+    /* backdrop-filter: blur(3px); */
 }
 
 .mynavbar .offcanvas {
