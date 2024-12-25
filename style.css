@@ -214,12 +214,15 @@ body {
 }
 
 /* mobile phone */
-@media(max-width: 756px) {
+@media(max-width: 576px) {
     html{
         font-size: 60%;
     }
     .simply-countdown>.simply-section{
         padding: 30px;
         margin: 3px;
+    }
+    .offcanvas {
+        max-width: 60% !important;
     }
 }
