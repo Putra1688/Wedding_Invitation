@@ -247,6 +247,10 @@ footer a {
     line-height: 0;
 }
 
+.gifts .tambahan {
+    margin-top: 15rem;
+}
+
 @keyframes rotating {
     from {
         transform: rotate(0);
