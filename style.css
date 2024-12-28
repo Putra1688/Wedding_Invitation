@@ -114,7 +114,7 @@ body {
 
 .home .couple h3 {
     font-family: "Sacramento", cursive;
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: var(--blue)
 }
 
@@ -227,6 +227,33 @@ footer a {
     margin-top: 0rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
+}
+
+.audio-icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: var(--blue);
+    opacity: 0.8;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Media Query */
